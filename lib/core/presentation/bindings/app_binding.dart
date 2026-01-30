@@ -4,7 +4,6 @@ import 'package:flutter_getx_clean_architecture/core/data/data_source/network/ne
 import 'package:flutter_getx_clean_architecture/core/presentation/controllers/app_controller.dart';
 import 'package:flutter_getx_clean_architecture/core/presentation/navigation/navigation_src.dart';
 import 'package:flutter_getx_clean_architecture/shared/exceptions/exception_handler.dart';
-import 'package:flutter_getx_clean_architecture/shared/mappers/mappers_src.dart';
 import 'package:flutter_getx_clean_architecture/shared/utils/utils_src.dart';
 import 'package:get/get.dart';
 
@@ -15,13 +14,7 @@ class AppBinding extends BaseBindings {
     required AppEnv env,
   }) async {
     await bindingsCore(env);
-    _bindingMappers();
     dependencies();
-  }
-
-  void _bindingMappers() {
-    Get.lazyPut(() => ProvinceDataMapper(), fenix: true);
-    Get.lazyPut(() => LoginRequestDataMapper(), fenix: true);
   }
 
   Future<void> bindingsCore(AppEnv env) async {

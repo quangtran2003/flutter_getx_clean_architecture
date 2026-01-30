@@ -23,7 +23,7 @@ class App extends BaseGetPage<AppController> {
       locale: const Locale('vi', 'VN'),
       translationsKeys: AppTranslation.translations,
       debugShowCheckedModeBanner: false,
-      initialRoute: AppRoutes.login.path,
+      initialRoute: AppRoutes.advice.path,
       getPages: AppPages.pages,
       localizationsDelegates: const [
         GlobalCupertinoLocalizations.delegate,

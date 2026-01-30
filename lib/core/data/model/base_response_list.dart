@@ -1,7 +1,7 @@
 import 'package:flutter_getx_clean_architecture/shared/constants/const.dart';
 
 class BaseResponseList<T> {
-  final String code;
+  final String? code;
   final String? errorMessage;
   final List<T> result;
 
@@ -17,7 +17,7 @@ class BaseResponseList<T> {
   ) {
     final result = json["result"];
     return BaseResponseList<T>(
-      code: json['code'] as String,
+      code: json['code'] as String?,
       errorMessage: json['errorMessage'] as String?,
       result: (result as List<dynamic>)
           .map((item) => fromJson(item as Map<String, dynamic>))

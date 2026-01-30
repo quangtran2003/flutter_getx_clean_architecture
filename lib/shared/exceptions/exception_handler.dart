@@ -34,7 +34,7 @@ class ExceptionHandler {
               nav.showSnackBar(
                 message: 'Phiên đăng nhập đã hết hạn, vui lòng đăng nhập lại',
               );
-              nav.offAllNamed(AppRoutes.login.path);
+              nav.offAllNamed(AppRoutes.advice.path);
               return;
             }
 

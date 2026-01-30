@@ -18,7 +18,7 @@ class RestApiClient {
     Map<String, dynamic>? queryParameters,
     Object? body,
     Options? options,
-    required CancelToken? cancelToken,
+    CancelToken? cancelToken,
   }) async {
     try {
       final response = await _requestByMethod(

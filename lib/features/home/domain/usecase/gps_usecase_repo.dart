@@ -23,4 +23,16 @@ class GpsUsecaseRepo {
   Stream<Either<Failure, LocationEntity>> getLocationStream() {
     return repository.getLocationStream();
   }
+
+  Future<Either<Failure, LocationEntity>> getCurrentLocation() async {
+    return await repository.getCurrentLocation();
+  }
+
+  Future<Either<Failure, bool>> requestLocationPermission() async {
+    return await repository.requestLocationPermission();
+  }
+
+  Future<Either<Failure, void>> openLocationSettings() async {
+    return await repository.openLocationSettings();
+  }
 }

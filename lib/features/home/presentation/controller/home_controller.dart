@@ -94,8 +94,14 @@ class HomeController extends BaseGetxController {
         showError(failure.message);
         isLoading.value = false;
       },
-      (success) {
+      (success) async {
         if (success) {
+          await checkGpsStatus();
+
+          if (!isGpsEnabled.value) {
+            showError('GPS is not enabled. Please enable GPS and try again.');
+            return;
+          }
           isLoading.value = true;
           _listenToLocationUpdates();
         }

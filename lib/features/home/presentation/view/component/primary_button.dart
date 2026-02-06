@@ -48,7 +48,6 @@ class PrimaryButtonComponent extends StatelessWidget {
             ),
             const SizedBox(height: 8),
 
-            // ID Display
             Text(
               title,
               style: const TextStyle(

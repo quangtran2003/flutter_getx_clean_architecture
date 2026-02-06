@@ -1,5 +1,5 @@
 enum AppRoutes {
-  advice;
+  home;
 
   String get path {
     return '/$name';

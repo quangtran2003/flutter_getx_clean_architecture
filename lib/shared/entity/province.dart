@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:flutter_getx_clean_architecture/core/domain/entity/entity.dart';
+import 'package:gps_native_clean_architecture/core/domain/entity/entity.dart';
 
 /// Tỉnh
 class Province extends Equatable implements Entity {

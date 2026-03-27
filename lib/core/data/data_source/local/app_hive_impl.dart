@@ -1,4 +1,4 @@
-import 'package:flutter_getx_clean_architecture/core/data/data_source/local/app_hive.dart';
+import 'package:gps_native_clean_architecture/core/data/data_source/local/app_hive.dart';
 import 'package:hive/hive.dart';
 import 'package:path_provider/path_provider.dart';
 

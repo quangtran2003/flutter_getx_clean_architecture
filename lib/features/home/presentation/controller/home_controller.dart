@@ -1,12 +1,12 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_getx_clean_architecture/core/presentation/controllers/base_getx_controller.dart';
-import 'package:flutter_getx_clean_architecture/features/home/core/enum/menu_enum.dart';
-import 'package:flutter_getx_clean_architecture/features/home/domain/entity/advice_entity.dart';
-import 'package:flutter_getx_clean_architecture/features/home/domain/entity/location_entity.dart';
-import 'package:flutter_getx_clean_architecture/features/home/domain/usecase/advice_usecase_repo.dart';
-import 'package:flutter_getx_clean_architecture/features/home/domain/usecase/gps_usecase_repo.dart';
+import 'package:gps_native_clean_architecture/core/presentation/controllers/base_getx_controller.dart';
+import 'package:gps_native_clean_architecture/features/home/core/enum/menu_enum.dart';
+import 'package:gps_native_clean_architecture/features/home/domain/entity/advice_entity.dart';
+import 'package:gps_native_clean_architecture/features/home/domain/entity/location_entity.dart';
+import 'package:gps_native_clean_architecture/features/home/domain/usecase/advice_usecase_repo.dart';
+import 'package:gps_native_clean_architecture/features/home/domain/usecase/gps_usecase_repo.dart';
 import 'package:get/get.dart';
 
 class HomeController extends BaseGetxController {

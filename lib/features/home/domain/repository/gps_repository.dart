@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
-import 'package:flutter_getx_clean_architecture/features/home/core/error/failures.dart';
-import 'package:flutter_getx_clean_architecture/features/home/domain/entity/location_entity.dart';
+import 'package:gps_native_clean_architecture/features/home/core/error/failures.dart';
+import 'package:gps_native_clean_architecture/features/home/domain/entity/location_entity.dart';
 
 abstract class GpsRepository {
   Future<Either<Failure, bool>> isGpsEnabled();

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_getx_clean_architecture/features/home/presentation/controller/home_controller.dart';
-import 'package:flutter_getx_clean_architecture/features/home/presentation/view/component/header_component.dart';
-import 'package:flutter_getx_clean_architecture/features/home/presentation/view/component/infor_card_component.dart';
-import 'package:flutter_getx_clean_architecture/features/home/presentation/view/component/primary_button.dart';
+import 'package:gps_native_clean_architecture/features/home/presentation/controller/home_controller.dart';
+import 'package:gps_native_clean_architecture/features/home/presentation/view/component/header_component.dart';
+import 'package:gps_native_clean_architecture/features/home/presentation/view/component/infor_card_component.dart';
+import 'package:gps_native_clean_architecture/features/home/presentation/view/component/primary_button.dart';
 import 'package:get/get.dart';
 
 class AdviceWidget extends StatelessWidget {

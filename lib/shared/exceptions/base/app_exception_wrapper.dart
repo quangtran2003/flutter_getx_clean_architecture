@@ -1,5 +1,5 @@
-import 'package:flutter_getx_clean_architecture/shared/exceptions/base/app_exception.dart';
-import 'package:flutter_getx_clean_architecture/shared/exceptions/remote/remote_exception.dart';
+import 'package:gps_native_clean_architecture/shared/exceptions/base/app_exception.dart';
+import 'package:gps_native_clean_architecture/shared/exceptions/remote/remote_exception.dart';
 
 class AppExceptionWrapper {
   AppExceptionWrapper({

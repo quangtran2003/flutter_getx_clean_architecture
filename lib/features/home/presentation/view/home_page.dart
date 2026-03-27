@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_getx_clean_architecture/core/presentation/widgets/base_get_page.dart';
-import 'package:flutter_getx_clean_architecture/features/home/core/enum/menu_enum.dart';
-import 'package:flutter_getx_clean_architecture/features/home/presentation/controller/home_controller.dart';
-import 'package:flutter_getx_clean_architecture/features/home/presentation/view/advice_widget.dart';
-import 'package:flutter_getx_clean_architecture/features/home/presentation/view/draggable_bottom_sheet.dart';
-import 'package:flutter_getx_clean_architecture/features/home/presentation/view/gps_widget.dart';
-import 'package:flutter_getx_clean_architecture/features/home/presentation/view/zoomable_floor_plan.dart';
+import 'package:gps_native_clean_architecture/core/presentation/widgets/base_get_page.dart';
+import 'package:gps_native_clean_architecture/features/home/core/enum/menu_enum.dart';
+import 'package:gps_native_clean_architecture/features/home/presentation/controller/home_controller.dart';
+import 'package:gps_native_clean_architecture/features/home/presentation/view/advice_widget.dart';
+import 'package:gps_native_clean_architecture/features/home/presentation/view/draggable_bottom_sheet.dart';
+import 'package:gps_native_clean_architecture/features/home/presentation/view/gps_widget.dart';
+import 'package:gps_native_clean_architecture/features/home/presentation/view/zoomable_floor_plan.dart';
 import 'package:get/get.dart';
 
 class HomePage extends BaseGetPage<HomeController> {

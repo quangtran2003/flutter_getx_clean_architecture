@@ -1,10 +1,10 @@
-import 'package:flutter_getx_clean_architecture/core/config/env_config.dart';
-import 'package:flutter_getx_clean_architecture/core/data/data_source/local/local_src.dart';
-import 'package:flutter_getx_clean_architecture/core/data/data_source/network/network_src.dart';
-import 'package:flutter_getx_clean_architecture/core/presentation/controllers/app_controller.dart';
-import 'package:flutter_getx_clean_architecture/core/presentation/navigation/navigation_src.dart';
-import 'package:flutter_getx_clean_architecture/shared/exceptions/exception_handler.dart';
-import 'package:flutter_getx_clean_architecture/shared/utils/utils_src.dart';
+import 'package:gps_native_clean_architecture/core/config/env_config.dart';
+import 'package:gps_native_clean_architecture/core/data/data_source/local/local_src.dart';
+import 'package:gps_native_clean_architecture/core/data/data_source/network/network_src.dart';
+import 'package:gps_native_clean_architecture/core/presentation/controllers/app_controller.dart';
+import 'package:gps_native_clean_architecture/core/presentation/navigation/navigation_src.dart';
+import 'package:gps_native_clean_architecture/shared/exceptions/exception_handler.dart';
+import 'package:gps_native_clean_architecture/shared/utils/utils_src.dart';
 import 'package:get/get.dart';
 
 import 'base_bindings.dart';

@@ -1,8 +1,8 @@
 import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_getx_clean_architecture/core/presentation/navigation/app_navigator.dart';
-import 'package:flutter_getx_clean_architecture/core/presentation/navigation/snack_bar_type.dart';
-import 'package:flutter_getx_clean_architecture/core/presentation/widgets/base_get_bts_dialog.dart';
+import 'package:gps_native_clean_architecture/core/presentation/navigation/app_navigator.dart';
+import 'package:gps_native_clean_architecture/core/presentation/navigation/snack_bar_type.dart';
+import 'package:gps_native_clean_architecture/core/presentation/widgets/base_get_bts_dialog.dart';
 import 'package:get/get.dart';
 
 class AppNavigatorImpl implements AppNavigator {

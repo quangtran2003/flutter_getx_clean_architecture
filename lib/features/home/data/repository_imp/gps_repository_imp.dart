@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_getx_clean_architecture/features/home/core/error/failures.dart';
-import 'package:flutter_getx_clean_architecture/features/home/data/data_source/gps_data_source.dart';
-import 'package:flutter_getx_clean_architecture/features/home/domain/entity/location_entity.dart';
-import 'package:flutter_getx_clean_architecture/features/home/domain/repository/gps_repository.dart';
+import 'package:gps_native_clean_architecture/features/home/core/error/failures.dart';
+import 'package:gps_native_clean_architecture/features/home/data/data_source/gps_data_source.dart';
+import 'package:gps_native_clean_architecture/features/home/domain/entity/location_entity.dart';
+import 'package:gps_native_clean_architecture/features/home/domain/repository/gps_repository.dart';
 
 class GpsRepositoryImp implements GpsRepository {
   final GpsPlatformDataSource source;

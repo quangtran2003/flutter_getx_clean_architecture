@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter_getx_clean_architecture/shared/utils/utils_src.dart';
+import 'package:gps_native_clean_architecture/shared/utils/utils_src.dart';
 import 'package:get/get_instance/src/bindings_interface.dart';
 
 abstract class BaseBindingsFactory extends Bindings {

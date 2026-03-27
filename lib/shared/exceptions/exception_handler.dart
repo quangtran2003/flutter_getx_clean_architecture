@@ -1,12 +1,12 @@
 import 'dart:io';
 
-import 'package:flutter_getx_clean_architecture/core/presentation/navigation/app_navigator.dart';
-import 'package:flutter_getx_clean_architecture/generated/locales.g.dart';
-import 'package:flutter_getx_clean_architecture/routes/app_routes.dart';
-import 'package:flutter_getx_clean_architecture/shared/exceptions/base/app_exception.dart';
-import 'package:flutter_getx_clean_architecture/shared/exceptions/base/app_exception_wrapper.dart';
-import 'package:flutter_getx_clean_architecture/shared/exceptions/remote/remote_exception.dart';
-import 'package:flutter_getx_clean_architecture/shared/utils/utils_src.dart';
+import 'package:gps_native_clean_architecture/core/presentation/navigation/app_navigator.dart';
+import 'package:gps_native_clean_architecture/generated/locales.g.dart';
+import 'package:gps_native_clean_architecture/routes/app_routes.dart';
+import 'package:gps_native_clean_architecture/shared/exceptions/base/app_exception.dart';
+import 'package:gps_native_clean_architecture/shared/exceptions/base/app_exception_wrapper.dart';
+import 'package:gps_native_clean_architecture/shared/exceptions/remote/remote_exception.dart';
+import 'package:gps_native_clean_architecture/shared/utils/utils_src.dart';
 import 'package:get/get.dart';
 
 class ExceptionHandler {

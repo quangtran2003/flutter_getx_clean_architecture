@@ -1,7 +1,7 @@
-import 'package:flutter_getx_clean_architecture/core/data/data_source/network/non_auth_app_server_api_client.dart';
-import 'package:flutter_getx_clean_architecture/core/data/data_source/network/rest_api_client.dart';
-import 'package:flutter_getx_clean_architecture/features/home/core/api.dart';
-import 'package:flutter_getx_clean_architecture/features/home/data/model/advice_model.dart';
+import 'package:gps_native_clean_architecture/core/data/data_source/network/non_auth_app_server_api_client.dart';
+import 'package:gps_native_clean_architecture/core/data/data_source/network/rest_api_client.dart';
+import 'package:gps_native_clean_architecture/features/home/core/api.dart';
+import 'package:gps_native_clean_architecture/features/home/data/model/advice_model.dart';
 
 abstract class AdviceRemoteDataSource {
   Future<AdviceModel> getAdvice();

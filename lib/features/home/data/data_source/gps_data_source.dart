@@ -1,6 +1,6 @@
-import 'package:flutter_getx_clean_architecture/features/home/core/error/exceptions.dart';
-import 'package:flutter_getx_clean_architecture/features/home/core/platform/gps_method_chanel.dart';
-import 'package:flutter_getx_clean_architecture/features/home/data/model/location_model.dart';
+import 'package:gps_native_clean_architecture/features/home/core/error/exceptions.dart';
+import 'package:gps_native_clean_architecture/features/home/core/platform/gps_method_chanel.dart';
+import 'package:gps_native_clean_architecture/features/home/data/model/location_model.dart';
 
 abstract class GpsPlatformDataSource {
   Future<bool> isGpsEnabled();

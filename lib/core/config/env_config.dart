@@ -1,5 +1,5 @@
-import 'package:flutter_getx_clean_architecture/env/env_dev.dart';
-import 'package:flutter_getx_clean_architecture/env/env_prod.dart';
+import 'package:gps_native_clean_architecture/env/env_dev.dart';
+import 'package:gps_native_clean_architecture/env/env_prod.dart';
 
 enum AppEnv {
   dev,

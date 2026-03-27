@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:flutter_getx_clean_architecture/shared/constants/const.dart';
+import 'package:gps_native_clean_architecture/shared/constants/const.dart';
 
 class BaseResponse<T> {
   final String? code;

@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:dio/dio.dart';
-import 'package:flutter_getx_clean_architecture/core/data/model/server_error.dart';
-import 'package:flutter_getx_clean_architecture/shared/exceptions/remote/remote_exception.dart';
+import 'package:gps_native_clean_architecture/core/data/model/server_error.dart';
+import 'package:gps_native_clean_architecture/shared/exceptions/remote/remote_exception.dart';
 
 enum RestMethod { get, post, put, patch, delete }
 

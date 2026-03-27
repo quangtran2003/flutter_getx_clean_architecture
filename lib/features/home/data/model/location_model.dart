@@ -1,4 +1,4 @@
-import 'package:flutter_getx_clean_architecture/features/home/domain/entity/location_entity.dart';
+import 'package:gps_native_clean_architecture/features/home/domain/entity/location_entity.dart';
 
 class LocationModel {
   final double latitude;

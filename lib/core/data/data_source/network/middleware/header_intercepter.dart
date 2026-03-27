@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:dio/dio.dart';
-import 'package:flutter_getx_clean_architecture/core/data/data_source/network/middleware/base_intercepter.dart';
-import 'package:flutter_getx_clean_architecture/shared/utils/utils_src.dart';
+import 'package:gps_native_clean_architecture/core/data/data_source/network/middleware/base_intercepter.dart';
+import 'package:gps_native_clean_architecture/shared/utils/utils_src.dart';
 
 class HeaderInterceptor extends BaseInterceptor {
   HeaderInterceptor(this._appInfo);
